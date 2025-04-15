@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "NOTION_TOKEN": "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"
+  }
+}

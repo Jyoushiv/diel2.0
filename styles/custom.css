@@ -1,0 +1,17 @@
+/* Import custom CSS files from the user's repository */
+@import './custom/style-jm.css';
+@import './custom/style.css';
+@import './custom/style-router.css';
+
+/* Additional custom styles for Notion integration */
+.notion-page {
+  width: 100%;
+  max-width: var(--container-width, 600px);
+  margin: 0 auto;
+}
+
+/* Ensure dark mode works properly with custom styles */
+.dark-mode .notion-page {
+  color: var(--color-text-default);
+  background: var(--color-bg-default);
+}
